@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+        <title>Online Quiz</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body class="">
+        <!-- content here  -->
+        <div class="container ">
+            <div class="left">
+                <img src="./img/logo.png" alt="Logo" id="tilt">
+            </div>
+            <div class="right">
+                <h1 class="title">Welcome to Online Quiz</h1>
+                <h2>Instructions :-</h2>
+                <ul>
+                    <li>10 Questions are present </li>
+                    <li>Each question carries one point</li>
+                    <li>3 minutes timer is present</li>
+                    <li>Questions are shown randomly </li>
+                    <li>Get results any time by clicking on Show Results button</li>
+                </ul>
+                <a href="questions.html">Let's Start Quiz</a>
+            </div>
+        </div>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/tilt.min.js"></script>
+    <script>
+        $("#tilt").tilt({
+            scale: 1.1
+        })
+    </script>
+</html>
